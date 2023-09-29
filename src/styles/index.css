@@ -10,6 +10,9 @@
     width: 100vw;
     padding: 1em;
 }
+.menu__activator > i {
+    font-size: 27px;
+}
 .menu{
     display: flex;
     flex-direction: column;
