@@ -1,0 +1,47 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+}
+.menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu__items{
+    list-style: none;
+}
+.menu__links{
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.box__skills{
+    width: 500px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+}
+.box__logos{
+
+}
+.skill__logos{
+    width: 4em;
+    height: 4em;
+}
+
+.skill__title{
+    /* Personalizar la Skill title */
+}
+
+.skill__description{
+    /* Personalizar la skill description  */
+}
