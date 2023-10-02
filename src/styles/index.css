@@ -5,11 +5,16 @@
 }
 body{
     font-family: "Montserrat",sans-serif;
-/*     background-image: url("../images/fondo-textura-hormigon-negro-grunge.jpg"); */
+    display: flex;
+    flex-direction: column;
+    max-width: 1440px;
+    margin: 0 auto;
+    height: 100vh;
 }
 
 main{
-    margin: 0 20px;
+    flex: 1;
+    overflow: scroll;
 }
 
 .menu__activator{
